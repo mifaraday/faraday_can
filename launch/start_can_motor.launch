@@ -1,0 +1,7 @@
+<launch>
+
+<node name="faraday_can_node" pkg="faraday_can" type="faraday_can_node" output="screen"/>
+
+<node name="faraday_joint_states_publisher" pkg="faraday_can" type="faraday_joint_states_publisher_node" />
+
+</launch>
